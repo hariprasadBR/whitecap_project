@@ -13,6 +13,7 @@
 
 }
 
+
 .navbar{
     width: 85%;
     height: 1cm;
@@ -23,6 +24,13 @@
     align-items: self-start;
     justify-content: space-between;
     
+}
+@navbar (max-width: 768px) {
+    /* Add styles specific to smaller screens here */
+}
+ 
+@navbar (max-width: 480px) {
+    /* Add styles specific to mobile devices here */
 }
 
 .logo{
@@ -159,4 +167,18 @@
 }
 .sidebar-social .gmail:hover {
     background-color: #c71610;
+}
+
+.footerbanner {
+    background-color: #333;
+    color: #c71610;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
