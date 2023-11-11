@@ -42,3 +42,8 @@ class MobileNavbar {
     ".nav-list li",
   );
   mobileNavbar.init();
+
+  window.addEventListener("load", function () {
+    var loaderContainer = document.querySelector(".loader-container");
+    loaderContainer.style.display = "none";
+});
