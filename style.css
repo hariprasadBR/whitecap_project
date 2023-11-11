@@ -129,7 +129,7 @@ nav {
     transition: 0.3s;
   }
   
-  @media (max-width: 999px) {
+  @media (max-width: 768px) {
     body {
         overflow-x: hidden;
     }
@@ -344,7 +344,7 @@ footer {
     padding: 0px;
    }
 
-   @media only screen and (max-width: 999px) {
+   @media only screen and (max-width: 768px) {
     .fistdv {
         flex-direction: column;
     }
