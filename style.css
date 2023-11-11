@@ -348,4 +348,9 @@ footer {
     .fistdv {
         flex-direction: column;
     }
+
+    .locationmail {
+      flex-direction: column;
+
+    }
 }
