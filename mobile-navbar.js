@@ -47,3 +47,52 @@ class MobileNavbar {
     var loaderContainer = document.querySelector(".loader-container");
     loaderContainer.style.display = "none";
 });
+
+
+/*slider */
+/*
+let currentSlide = 0;
+
+function startSlider() {
+  let imageCount = document.querySelectorAll("img");
+
+  if (imageCount.length === 0) {
+    imageCount = document.querySelectorAll("img");
+    images.style.transform = `translateX(0px)`;
+    return;
+  }
+
+  let images = document.querySelector("ul");
+  images.style.transform = `translateX(-${currentSlide * 450}px)`;
+
+  if (currentSlide === imageCount.length - 1) {
+    currentSlide = 0;
+  } else {
+    currentSlide++;
+  }
+}
+
+setInterval(() => {
+  startSlider();
+}, 5000);
+*/
+
+let currentSlide = 0;
+
+    function startSlider() {
+        let imageCount = document.querySelectorAll(".slider ul li");
+        let images = document.querySelector(".slider ul");
+
+        images.style.transition = "transform 0.5s ease-in-out";
+        images.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+        if (currentSlide === imageCount.length - 1) {
+            currentSlide = 0;
+        } else {
+            currentSlide++;
+        }
+    }
+
+    setInterval(() => {
+        startSlider();
+    }, 5000);
