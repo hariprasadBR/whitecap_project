@@ -128,7 +128,7 @@
 
 .slider img {
   width: 100%;
-  height: max-content;
+  height: 100%;
  
 }
 @media (max-width: 768px) {
