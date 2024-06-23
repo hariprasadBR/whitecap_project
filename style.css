@@ -444,28 +444,30 @@ nav {
 /* bottom*/
 /* Footer Styles */
 footer.headfooter {
-  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  background: linear-gradient(145deg, #253529, #2a2a35); /* Glossy dark blue background */
   color: #fff;
   padding: 20px;
   transition: background-color 0.3s ease; /* Smooth transition on hover */
+  box-shadow: 5px 5px 15px #14141a, -5px -5px 15px #353546; /* 3D effect */
 }
 
-
 footer.headfooter:hover {
-    background-color: rgba(35, 35, 46, 0.9); /* Darken the background on hover */
+  background-color: rgba(35, 35, 46, 0.9); /* Darken the background on hover */
 }
 
 .footer .copyright {
-    background-color: rgba(35, 35, 46, 0.8); /* Semi-transparent background */
-    color: #fff;
-    padding: 0;
-    text-align: center;
+  background-color: rgba(35, 35, 46, 0.8); /* Semi-transparent background */
+  color: #fff;
+  padding: 5px; /* Reduced padding */
+  text-align: center;
+  font-size: 12px; /* Smaller font size */
 }
 
 hr {
-    border-color: rgba(255, 255, 255, 0.1); /* Example divider color */
-    margin: 20px 0;
+  border-color: rgba(255, 255, 255, 0.1); /* Example divider color */
+  margin: 20px 0;
 }
+
 
 
 
